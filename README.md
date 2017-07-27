@@ -6,6 +6,9 @@ the foundation for most of the documentation samples and potentially a good star
 
 It's been extended with testing support so you can start writing tests immediately.
 
+```
+** Please note this is experimental setup. Not recommended for production use. **
+```
 ## Prerequisites
 
 Node.js and npm are essential to React & Angular development. 
