@@ -1,5 +1,5 @@
 ﻿# Review.io [Credits : Angular Quickstart Repo]
-[![Build Status][travis-badge]][travis-badge-url]
+[![Build Status](https://travis-ci.org/SpawnTree/Review.io.svg?branch=master)](https://travis-ci.org/SpawnTree/Review.io)
 
 This repository holds the source code of the Review.io review site,
 the foundation for most of the documentation samples and potentially a good starting point the application.
@@ -144,5 +144,5 @@ which is easier to read; this file is excluded from source control.
 
 Shut it down manually with `Ctrl-C`.
 
-[travis-badge]: https://travis-ci.org/angular/quickstart.svg?branch=master
-[travis-badge-url]: https://travis-ci.org/angular/quickstart
+[travis-badge]: https://travis-ci.org/SpawnTree/Review.io.svg?branch=master
+
