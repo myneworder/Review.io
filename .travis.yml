@@ -19,7 +19,6 @@ script:
   - npm run test:once
   - npm run e2e
 
-travis encrypt "cryptostewarts:KJp9hwkuiYYblcNjDcLfF159" --add notifications.slack  
 notifications:
     slack: cryptostewarts:KJp9hwkuiYYblcNjDcLfF159
 
