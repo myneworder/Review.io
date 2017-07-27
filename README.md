@@ -1,6 +1,6 @@
 ﻿# Review.io [Credits : Angular Quickstart Repo]
 [![Build Status](https://travis-ci.org/SpawnTree/Review.io.svg?branch=master)](https://travis-ci.org/SpawnTree/Review.io)
-[!devdependencies(https://david-dm.org/SpawnTree/Review.io.svg)]
+[![devdependencies](https://david-dm.org/SpawnTree/Review.io.svg)](https://david-dm.org/SpawnTree/Review.io.svg)
 
 This repository holds the source code of the Review.io review site,
 the foundation for most of the documentation samples and potentially a good starting point the application.
