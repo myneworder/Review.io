@@ -1,4 +1,4 @@
-﻿# Angular QuickStart Source
+﻿# Review.io [Credits : Angular Quickstart Repo]
 [![Build Status][travis-badge]][travis-badge-url]
 
 This repository holds the source code of the Review.io review site,
@@ -143,3 +143,6 @@ A custom reporter (see `protractor.config.js`) generates a  `./_test-output/prot
 which is easier to read; this file is excluded from source control.
 
 Shut it down manually with `Ctrl-C`.
+
+[travis-badge]: https://travis-ci.org/angular/quickstart.svg?branch=master
+[travis-badge-url]: https://travis-ci.org/angular/quickstart
