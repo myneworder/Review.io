@@ -1,4 +1,4 @@
-﻿# Review.io [Credits : Angular Quickstart Repo]
+﻿# Review.io [Start-Credits : Angular Quickstart Repo]
 
 [![Join the chat at https://gitter.im/Review-io/Lobby](https://badges.gitter.im/Review-io/Lobby.svg)](https://gitter.im/Review-io/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 [![Build Status](https://travis-ci.org/SpawnTree/Review.io.svg?branch=master)](https://travis-ci.org/SpawnTree/Review.io)
@@ -12,6 +12,8 @@ It's been extended with testing support so you can start writing tests immediate
 
 ```
 ** Please note this is experimental setup. Not recommended for production use. **
+** Web3, truffle, Zeppelin, Solidity, WavesNode code yet to be tested. **
+** Unit Testing for smart-contracts & Blockchain based logic to be tested ** 
 ```
 ## Prerequisites
 
