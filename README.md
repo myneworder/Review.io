@@ -1,4 +1,6 @@
 ﻿# Review.io [Credits : Angular Quickstart Repo]
+
+[![Join the chat at https://gitter.im/Review-io/Lobby](https://badges.gitter.im/Review-io/Lobby.svg)](https://gitter.im/Review-io/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 [![Build Status](https://travis-ci.org/SpawnTree/Review.io.svg?branch=master)](https://travis-ci.org/SpawnTree/Review.io)
 [![devDependencies Status](https://david-dm.org/SpawnTree/Review.io/dev-status.svg)](https://david-dm.org/SpawnTree/Review.io?type=dev)
 [![dependencies Status](https://david-dm.org/SpawnTree/Review.io.svg)](https://david-dm.org/SpawnTree/Review.io)
