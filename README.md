@@ -8,7 +8,7 @@ It's been extended with testing support so you can start writing tests immediate
 
 ## Prerequisites
 
-Node.js and npm are essential to Angular development. 
+Node.js and npm are essential to React & Angular development. 
     
 <a href="https://docs.npmjs.com/getting-started/installing-node" target="_blank" title="Installing Node.js and updating npm">
 Get it now</a> if it's not already installed on your machine.
