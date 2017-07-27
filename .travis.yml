@@ -21,7 +21,7 @@ script:
 
 travis encrypt "cryptostewarts:KJp9hwkuiYYblcNjDcLfF159" --add notifications.slack  
 notifications:
-    slack: cryptostewarts:KJp9hwkuiYYblcNjDcLfF159#reviewio
+    slack: cryptostewarts:KJp9hwkuiYYblcNjDcLfF159
 
     
     
