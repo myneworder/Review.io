@@ -102,9 +102,9 @@ You're ready to write your application.
 
 ### Solidity Smart Contract
 ```
-1. Truffle & Zeppelin support.
-2. Compilation & Build to be intergrated. 
-3. It be later be integrated with webpack & npm script for automated builds (if possible!!).
+* Truffle & Zeppelin support.
+* Compilation & Build to be intergrated. 
+* It be later be integrated with webpack & npm script for automated builds (if possible!!).
 ```
 
 ### Yarn & Webpack
