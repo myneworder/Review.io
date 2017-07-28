@@ -12,7 +12,7 @@ It's been extended with testing support so you can start writing tests immediate
 
 ```
 ** Please note this is experimental setup. Not recommended for production use. **
-** Web3, truffle, Zeppelin, Solidity, WavesNode code yet to be tested. **
+** Web3 Package install via bower. Truffle, Zeppelin, Solidity-Lint & Solidity compilation only on node. **
 ** Unit Testing for smart-contracts & Blockchain based logic to be tested ** 
 ```
 ## Prerequisites
@@ -69,6 +69,14 @@ Grab its address (e.g. *`https://github.com/<my-org>/my-proj.git`*) and push the
 git remote add origin <repo-address>
 git push -u origin master
 ```
+
+## Install bower packages
+
+```shell
+bower install
+bower install <package.name> --save
+```
+
 ## Install npm packages
 
 > See npm and nvm version notes above
@@ -77,6 +85,7 @@ Install the npm packages described in the `package.json` and verify that it work
 
 ```shell
 npm install
+npm install <package.name> --save
 npm start
 ```
 
