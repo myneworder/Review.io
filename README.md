@@ -6,9 +6,10 @@
 [![dependencies Status](https://david-dm.org/SpawnTree/Review.io.svg)](https://david-dm.org/SpawnTree/Review.io)
 
 This repository holds the source code of the Review.io review site,
-the foundation for most of the documentation samples and potentially a good starting point the application.
+the foundation for most of the documentation samples and potentially a good starting point for the application.
 
 It's been extended with testing support so you can start writing tests immediately.
+It is not made to match production needs and will later be added with DOCKER ```Dockerfile``` & Build Intergration support.
 
 ```
 ** Please note this is experimental setup. Not recommended for production use. **
@@ -98,6 +99,19 @@ Both the compiler and the server watch for file changes.
 Shut it down manually with `Ctrl-C`.
 
 You're ready to write your application.
+
+### Solidity Smart Contract
+```
+1. Truffle & Zeppelin support.
+2. Compilation & Build to be intergrated. 
+3. It be later be integrated with webpack & npm script for automated builds (if possible!!).
+```
+
+### Yarn & Webpack
+
+``` 
+Yet to add Yarn Support & Webpack scripts
+```
 
 ### npm scripts
 
