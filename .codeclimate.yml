@@ -1,16 +1,10 @@
 ﻿engines:
-  fixme:
-    enabled: true  
   eslint:
     enabled: true
   csslint:
     enabled: true
   duplication:
-    enabled: true
-    config:
-      languages:
-      - javascript:
-
+    enabled: false
  
 ratings:
    paths:
@@ -20,5 +14,4 @@ ratings:
 
 exclude_paths:
 - "bower_components/"
-
-      
+- "node_modules/"
