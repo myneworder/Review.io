@@ -14,13 +14,11 @@
  
 ratings:
    paths:
-   - "e2e/**.js"
-   - "src/**.js"
-   - "public/**.js"
-   - "public/**.css"
+   - "**.js"
+   - "**.jsx"
+   - "**.css"
 
 exclude_paths:
 - "bower_components/"
-- "node_modules/"
-- "React-based Elements/"
+
       
