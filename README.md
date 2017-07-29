@@ -1,180 +1,185 @@
-# React-News
+﻿# Review.io [Start-Credits : Angular Quickstart Repo]
 
-## About
+[![JavaScript Style Guide: Good Parts](https://img.shields.io/badge/code%20style-goodparts-brightgreen.svg?style=flat)](https://github.com/dwyl/goodparts "JavaScript The Good Parts")
+[![Join the chat at https://gitter.im/Review-io/Lobby](https://badges.gitter.im/Review-io/Lobby.svg)](https://gitter.im/Review-io/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+[![Build Status](https://travis-ci.org/SpawnTree/Review.io.svg?branch=master)](https://travis-ci.org/SpawnTree/Review.io)
+[![devDependencies Status](https://david-dm.org/SpawnTree/Review.io/dev-status.svg)](https://david-dm.org/SpawnTree/Review.io?type=dev)
+[![dependencies Status](https://david-dm.org/SpawnTree/Review.io.svg)](https://david-dm.org/SpawnTree/Review.io)
+[![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/dwyl/esta/issues)
+[![Code Climate](https://codeclimate.com/github/SpawnTree/Review.io/badges/gpa.svg)](https://codeclimate.com/github/SpawnTree/Review.io)
+[![Test Coverage](https://codeclimate.com/github/SpawnTree/Review.io/badges/coverage.svg)](https://codeclimate.com/github/codeclimate/SpawnTree/Review.io)
+[![Issue Count](https://codeclimate.com/github/SpawnTree/Review.io/badges/issue_count.svg)](https://codeclimate.com/github/SpawnTree/Review.io)
 
-**Note: Due to the popularity of this project, I am bumping up against the limits of my Firebase account. If it's unresponsive, that's probably why. If you fork the project, please sign up for a [free Firebase account](https://www.firebase.com/pricing.html) and update the URL in `util/constants.js`!**
+This repository holds the source code of the Review.io review site,
+the foundation for most of the documentation samples and potentially a good starting point for the application.
 
-This is a real-time Hacker News clone written using [React](http://facebook.github.io/react/), [RefluxJS](https://github.com/spoike/refluxjs), and a [Firebase](http://firebase.com) backend.
+It's been extended with testing support so you can start writing tests immediately.
+It is not made to match production needs and will later be added with DOCKER ```Dockerfile``` & Build Intergration support.
 
-## Demo
+```
+** Please note this is experimental setup. Not recommended for production use. **
+** Web3 Package install via bower. Truffle, Zeppelin, Solidity-Lint & Solidity compilation only on node. **
+** Unit Testing for smart-contracts & Blockchain based logic to be tested ** 
+```
+## Prerequisites
 
-[![React-News](http://henleyedition.com/content/images/2015/02/Screen-Shot-2015-02-22-at-10-59-05-PM.png)](http://henleyedition.com/react-news/)
+Node.js and npm are essential to React & Angular development. 
+    
+<a href="https://docs.npmjs.com/getting-started/installing-node" target="_blank" title="Installing Node.js and updating npm">
+Get it now</a> if it's not already installed on your machine.
+ 
+**Verify that you are running at least node `v4.x.x` and npm `3.x.x`**
+by running `node -v` and `npm -v` in a terminal/console window.
+Older versions produce errors.
 
-Demo available [here](http://henleyedition.com/react-news/).
+We recommend [nvm](https://github.com/creationix/nvm) for managing multiple versions of node and npm.
 
-Test User Login:  
-email: reactnews@example.com  
-password: henleyedition1
+### Delete _non-essential_ files (optional)
 
-## Development and Build Process
+You can quickly delete the _non-essential_ files that concern testing and QuickStart repository maintenance
+(***including all git-related artifacts*** such as the `.git` folder and `.gitignore`!)
+by entering the following commands while in the project folder:
 
-To start the development server, run `npm i && npm start` and have at the `src/`. Files are served from `/build`.
+##### OS/X (bash)
+```shell
+xargs rm -rf < non-essential-files.osx.txt
+rm src/app/*.spec*.ts
+rm non-essential-files.osx.txt
+```
 
-| Command | Description |
-| ------- | ----------- |
-| `npm start` | Starts development server with hot reloading. |
-| `npm run build` | Runs development build. Outputs files to `/build`. |
-| `npm run dist` | Runs production build. Outputs files to `/dist`. |
-| `npm run lint` | Runs eslint on the `/src` folder. |
-| `npm test` | Runs test suite once. |
-| `npm run test:watch` | Runs test server. |
+##### Windows
+```shell
+for /f %i in (non-essential-files.txt) do del %i /F /S /Q
+rd .git /s /q
+rd e2e /s /q
+```
+
+### Create a new git repo
+You could [start writing code](#start-development) now and throw it all away when you're done.
+If you'd rather preserve your work under source control, consider taking the following steps.
+
+Initialize this project as a *local git repo* and make the first commit:
+```shell
+git init
+git add .
+git commit -m "Initial commit"
+```
+
+>Recover the deleted `.gitignore` from the QuickStart repository 
+if you lost it in the _Delete non-essential files_ step.
+
+Create a *remote repository* for this project on the service of your choice.
+
+Grab its address (e.g. *`https://github.com/<my-org>/my-proj.git`*) and push the *local repo* to the *remote*.
+```shell
+git remote add origin <repo-address>
+git push -u origin master
+```
+
+## Install bower packages
+
+```shell
+bower install
+bower install <package.name> --save
+```
+
+## Install npm packages
+
+> See npm and nvm version notes above
+
+Install the npm packages described in the `package.json` and verify that it works:
+
+```shell
+npm install
+npm install <package.name> --save
+npm start
+```
+
+>Doesn't work in _Bash for Windows_ which does not support servers as of January, 2017.
+
+The `npm start` command first compiles the application, 
+then simultaneously re-compiles and runs the `lite-server`.
+Both the compiler and the server watch for file changes.
+
+Shut it down manually with `Ctrl-C`.
+
+You're ready to write your application.
+
+### Solidity Smart Contract
+```
+* Truffle & Zeppelin support.
+* Compilation & Build to be intergrated. 
+* It be later be integrated with webpack & npm script for automated builds (if possible!!).
+```
+
+### Yarn & Webpack
+
+``` 
+Yet to add Yarn Support & Webpack scripts
+```
+
+### npm scripts
+
+We've captured many of the most useful commands in npm scripts defined in the `package.json`:
+
+* `npm start` - runs the compiler and a server at the same time, both in "watch mode".
+* `npm run build` - runs the TypeScript compiler once.
+* `npm run build:w` - runs the TypeScript compiler in watch mode; the process keeps running, awaiting changes to TypeScript files and re-compiling when it sees them.
+* `npm run serve` - runs the [lite-server](https://www.npmjs.com/package/lite-server), a light-weight, static file server, written and maintained by
+[John Papa](https://github.com/johnpapa) and
+[Christopher Martin](https://github.com/cgmartin)
+with excellent support for Angular apps that use routing.
+
+Here are the test related scripts:
+* `npm test` - compiles, runs and watches the karma unit tests
+* `npm run e2e` - compiles and run protractor e2e tests, written in Typescript (*e2e-spec.ts)
 
 ## Testing
 
-*Note: tests are a work in progress.*
+This repo adds both karma/jasmine unit test and protractor end-to-end testing support.
 
-The test suite is run using `npm test` and `npm run test:watch`. Individual unit tests live in `__tests__` directories throughout `src/`. Tests are built with [Karma](https://github.com/karma-runner/karma) (test runner), [Mocha](https://github.com/mochajs/mocha) (test environment), [PhantomJS](http://phantomjs.org/) (test browser), [Chai](https://github.com/chaijs/chai) (assertions), and [Sinon](https://github.com/cjohansen/Sinon.JS) (spies/mocks). Jest was ruled out for [reasons](https://github.com/echenley/react-news/issues/4).
+These tools are configured for specific conventions described below.
 
-## Firebase Structure
+*It is unwise and rarely possible to run the application, the unit tests, and the e2e tests at the same time.
+We recommend that you shut down one before starting another.*
 
-`$` are Firebase-generated unique IDs.
+### Unit Tests
+TypeScript unit-tests are usually in the `src/app` folder. Their filenames must end in `.spec.ts`.
 
-```
-├── comments
-│   └── $commentId
-│       ├── creator (username)
-│       ├── creatorUID ($userId)
-│       ├── postId ($postId)
-│       ├── postTitle
-│       ├── text
-│       ├── time
-│       └── upvotes
-├── posts
-│   └── $postId
-│       ├── commentCount
-│       ├── creator (username)
-│       ├── creatorUID ($userId)
-│       ├── time
-│       ├── title
-│       ├── upvotes
-│       └── url
-└── users
-    └── $userId
-        ├── md5hash
-        ├── upvoted
-        │   └── $itemId ($postId or $commentId)
-        └── username
-```
+Look for the example `src/app/app.component.spec.ts`.
+Add more `.spec.ts` files as you wish; we configured karma to find them.
 
-## Firebase Security Rules
+Run it with `npm test`
 
-```javascript
-{
-  "rules": {
+That command first compiles the application, then simultaneously re-compiles and runs the karma test-runner.
+Both the compiler and the karma watch for (different) file changes.
 
-    "posts": {
-      // anyone can view posts
-      ".read": true,
-      ".indexOn": ["upvotes", "creatorUID", "commentCount", "time"],
+Shut it down manually with `Ctrl-C`.
 
-      "$id": {
-        // auth can't be null to make/edit post
-        // if the post exists, auth.uid must match creatorUID
-        ".write": "(auth != null && !data.exists()) || data.child('creatorUID').val() === auth.uid",
+Test-runner output appears in the terminal window.
+We can update our app and our tests in real-time, keeping a weather eye on the console for broken tests.
+Karma is occasionally confused and it is often necessary to shut down its browser or even shut the command down (`Ctrl-C`) and
+restart it. No worries; it's pretty quick.
 
-        // make sure all 5 fields are present before saving a new post
-        // leave 'isDeleted' when deleting a post
-        ".validate": "newData.hasChildren(['title', 'url', 'creator', 'creatorUID', 'time']) ||
-                      newData.hasChildren(['isDeleted'])",
+### End-to-end (E2E) Tests
 
-        // title must be a string with length>0
-        "title": {
-          ".validate": "newData.isString() && newData.val().length > 0"
-        },
-        "url": {
-          ".validate": "newData.isString()"
-        },
-        "creator": {
-          ".validate": "newData.isString()"
-        },
-        "creatorUID": {
-          ".validate": "auth.uid === newData.val() && root.child('users/' + newData.val()).exists()"
-        },
-        "commentCount": {
-          // commentCount must be writable by anyone logged in
-          ".write": "auth != null",
-          // 1st line: initial write
-          // 2nd line: only alterable by 1
-          // 3rd line: if deleted
-          ".validate": "(!data.exists() && newData.val() === 1) ||
-                        (newData.val() - data.val() === 1 || newData.val() - data.val() === -1) ||
-                        !newData.exists()"
-        },
-        "upvotes": {
-          // upvotes must be writable by anyone logged in
-          ".write": "auth != null",
-          // 1st line: initial write
-          // 2nd line: cannot go below 0 and only alterable by 1
-          ".validate": "(!data.exists() && newData.val() === 1) ||
-                        (newData.val() >= 0 && (newData.val() - data.val() === 1 || newData.val() - data.val() === -1))"
-        }
-      }
-    },
+E2E tests are in the `e2e` directory, side by side with the `src` folder.
+Their filenames must end in `.e2e-spec.ts`.
 
-    "comments": {
-      ".read": true,
-      ".indexOn": ["postId","creatorUID","time"],
+Look for the example `e2e/app.e2e-spec.ts`.
+Add more `.e2e-spec.js` files as you wish (although one usually suffices for small projects);
+we configured Protractor to find them.
 
-      "$comment_id": {
-        ".write": "auth != null && (!data.exists() || data.child('creatorUID').val() === auth.uid)",
-        ".validate": "newData.hasChildren(['postId', 'text', 'creator', 'creatorUID', 'time']) &&
-                      (newData.child('text').isString() && newData.child('text').val() != '')",
+Thereafter, run them with `npm run e2e`.
 
-        "upvotes": {
-          // upvotes must be writable by anyone logged in
-          ".write": "auth != null",
-          // 1st line: initial write
-          // 2nd line: cannot go below 0 and only alterable by 1
-          ".validate": "(!data.exists() && newData.val() === 1) ||
-                        (newData.val() - data.val() === 1 || newData.val() - data.val() === -1)"
-        }
-      }
-    },
+That command first compiles, then simultaneously starts the `lite-server` at `localhost:8080`
+and launches Protractor.  
 
-    "users": {
-      ".read": true,
-      ".indexOn": ["username"],
+The pass/fail test results appear at the bottom of the terminal window.
+A custom reporter (see `protractor.config.js`) generates a  `./_test-output/protractor-results.txt` file
+which is easier to read; this file is excluded from source control.
 
-      "$uid": {
-        // user not authenticated until after profile is created
-        ".write": "!data.exists()",
-        ".validate": "newData.hasChildren(['username', 'md5hash']) &&
-                      newData.child('username').isString() &&
-                      newData.child('md5hash').isString()",
-        "upvoted": {
-          "$itemId": {
-            ".write": "auth.uid === $uid"
-          }
-        },
-        "submitted": {
-          "$itemId": {
-            ".write": "auth.uid === $uid"
-          }
-        }
-      }
-    },
+Shut it down manually with `Ctrl-C`.
 
-    // Don't let users post to other fields
-    "$other": { ".validate": false }
+[travis-badge]: https://travis-ci.org/SpawnTree/Review.io.svg?branch=master
 
-  }
-}
-```
-
-## Firebase Authentication
-
-To set up users, from your Firebase dashboard:
-
-1. Click Auth
-1. Click users
-1. Enable Email/password sign-in method

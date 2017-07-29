@@ -1,0 +1,14 @@
+﻿engines:
+  eslint:
+    enabled: true
+  csslint:
+    enabled: true
+  duplication:
+    enabled: false
+
+ratings:
+   paths:
+   - "**.js"
+   - "**.jsx"
+   - "**.css"
+
