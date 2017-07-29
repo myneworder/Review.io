@@ -1,6 +1,10 @@
-engines:
+﻿engines:
   eslint:
     enabled: true
+  tslint:
+    enabled: true
+    channel: beta
+    config: tslint.json  
   csslint:
     enabled: true
   duplication:
