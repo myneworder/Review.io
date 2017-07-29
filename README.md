@@ -4,6 +4,7 @@
 [![Build Status](https://travis-ci.org/SpawnTree/Review.io.svg?branch=master)](https://travis-ci.org/SpawnTree/Review.io)
 [![devDependencies Status](https://david-dm.org/SpawnTree/Review.io/dev-status.svg)](https://david-dm.org/SpawnTree/Review.io?type=dev)
 [![dependencies Status](https://david-dm.org/SpawnTree/Review.io.svg)](https://david-dm.org/SpawnTree/Review.io)
+[![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/dwyl/esta/issues)
 
 This repository holds the source code of the Review.io review site,
 the foundation for most of the documentation samples and potentially a good starting point for the application.
