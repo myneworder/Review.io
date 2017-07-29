@@ -9,7 +9,6 @@
 [![Code Climate](https://codeclimate.com/github/SpawnTree/Review.io/badges/gpa.svg)](https://codeclimate.com/github/SpawnTree/Review.io)
 [![Test Coverage](https://codeclimate.com/github/SpawnTree/Review.io/badges/coverage.svg)](https://codeclimate.com/github/codeclimate/SpawnTree/Review.io)
 [![Issue Count](https://codeclimate.com/github/SpawnTree/Review.io/badges/issue_count.svg)](https://codeclimate.com/github/SpawnTree/Review.io)
-[![HitCount](https://hitt.herokuapp.com/SpawnTree/Review.io.svg)](https://github.com/SpawnTree/Review.io)
 
 This repository holds the source code of the Review.io review site,
 the foundation for most of the documentation samples and potentially a good starting point for the application.
