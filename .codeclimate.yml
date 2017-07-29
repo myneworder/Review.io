@@ -1,16 +1,10 @@
 ﻿engines:
   eslint:
-    enabled: false
-    exclude_paths:
-    - bower_components/*
+    enabled: true
   csslint:
-    enabled: false
-    exclude_paths:
-    - bower_components/*
+    enabled: true
   duplication:
     enabled: false
-    exclude_paths:
-    - bower_components/*
 
 ratings:
    paths:
@@ -18,5 +12,3 @@ ratings:
    - "**.jsx"
    - "**.css"
 
-exclude_paths:
-- bower_components/*
