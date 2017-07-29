@@ -1,0 +1,20 @@
+{
+  "name": "react-news",
+  "description": "",
+  "main": "",
+  "authors": [
+    "DevUps Multi3edProcessController <shekharhiran@hotmail.com>"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/echenley/react-news",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "web3": "^0.19.0"
+  }
+}
