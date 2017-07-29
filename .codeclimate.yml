@@ -1,4 +1,4 @@
-﻿engines:
+engines:
   eslint:
     enabled: true
   csslint:
@@ -15,3 +15,4 @@ ratings:
 exclude_paths:
 - "bower_components/"
 - "node_modules/"
+      
