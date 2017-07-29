@@ -75,6 +75,12 @@ Grab its address (e.g. *`https://github.com/<my-org>/my-proj.git`*) and push the
 git remote add origin <repo-address>
 git push -u origin master
 ```
+### React-Parts
+
+``` 
+React-Parts react components are still under test and are not integrated with the Angular2 part. 
+Please see React-Parts folder in this repository for further details.
+```
 
 ## Install bower packages
 
