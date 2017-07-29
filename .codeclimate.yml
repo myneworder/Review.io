@@ -1,14 +1,14 @@
 ﻿engines:
   eslint:
-    enabled: true
+    enabled: false
     exclude_paths:
     - bower_components/*
   csslint:
-    enabled: true
+    enabled: false
     exclude_paths:
     - bower_components/*
   duplication:
-    enabled: true
+    enabled: false
     exclude_paths:
     - bower_components/*
 
