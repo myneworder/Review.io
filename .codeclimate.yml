@@ -1,9 +1,6 @@
 ﻿engines:
   eslint:
     enabled: true
-  tslint:
-    enabled: true
-    channel: beta
   csslint:
     enabled: true
   duplication:
