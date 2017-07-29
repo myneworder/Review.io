@@ -5,7 +5,7 @@
 [![devDependencies Status](https://david-dm.org/SpawnTree/Review.io/dev-status.svg)](https://david-dm.org/SpawnTree/Review.io?type=dev)
 [![dependencies Status](https://david-dm.org/SpawnTree/Review.io.svg)](https://david-dm.org/SpawnTree/Review.io)
 [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/dwyl/esta/issues)
-[![Code Climate](https://codeclimate.com/github/SpawnTree/Review.io/gpa.svg)](https://codeclimate.com/github/SpawnTree/Review.io)
+[![Code Climate](https://codeclimate.com/github/SpawnTree/Review.io/badges/gpa.svg)](https://codeclimate.com/github/SpawnTree/Review.io)
 [![Test Coverage](https://codeclimate.com/github/SpawnTree/Review.io/badges/coverage.svg)](https://codeclimate.com/github/codeclimate/SpawnTree/Review.io)
 [![Issue Count](https://codeclimate.com/github/SpawnTree/Review.io/badges/issue_count.svg)](https://codeclimate.com/github/SpawnTree/Review.io)
 
