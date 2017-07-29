@@ -8,7 +8,7 @@
     exclude_paths:
     - bower_components/*
   duplication:
-    enabled: false
+    enabled: true
     exclude_paths:
     - bower_components/*
 
