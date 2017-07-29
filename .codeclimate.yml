@@ -1,11 +1,17 @@
-engines:
+﻿engines:
   eslint:
     enabled: true
   csslint:
     enabled: true
   duplication:
     enabled: false
-    config:
-      languages:
-      - javascript: 
-      
+ 
+ratings:
+   paths:
+   - "**.js"
+   - "**.jsx"
+   - "**.css"
+
+exclude_paths:
+- "bower_components/"
+- "node_modules/"
