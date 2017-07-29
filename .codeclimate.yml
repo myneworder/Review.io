@@ -1,11 +1,6 @@
 ﻿exclude_paths:
 - "bower_components/"
 - "node_modules/"
-  eslint:
-    enabled: true
-  csslint:
-    enabled: true
-  duplication:
-    enabled: false
+
 
       
