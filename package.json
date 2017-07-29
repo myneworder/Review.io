@@ -1,5 +1,5 @@
-{
-  "name": "Review.io",
+﻿{
+  "name": "review.io",
   "version": "1.0.0",
   "description": "Review.io is experimential and not recommended for production use.",
   "scripts": {
