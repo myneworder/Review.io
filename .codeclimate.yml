@@ -2,16 +2,15 @@
   eslint:
     enabled: true
     exclude_paths:
-    - bower_components/
+    - bower_components/*
   csslint:
     enabled: true
     exclude_paths:
-    - bower_components/
+    - bower_components/*
   duplication:
     enabled: false
     exclude_paths:
-    - bower_components/
-
+    - bower_components/*
 
 ratings:
    paths:
@@ -20,4 +19,4 @@ ratings:
    - "**.css"
 
 exclude_paths:
-- bower_components/
+- bower_components/*
