@@ -1,4 +1,4 @@
-﻿{
+{
   "name": "review.io",
   "version": "1.0.0",
   "description": "Review.io is experimential and not recommended for production use.",
@@ -89,6 +89,7 @@
     "truffle": "^3.4.6",
     "webpack": "^1.12.3",
     "webpack-dev-server": "^1.12.1",
+    "zeppelin-solidity": "^1.2.0",
     "zone.js": "^0.8.4"
   },
   "devDependencies": {

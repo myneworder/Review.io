@@ -1,4 +1,4 @@
-# Default application configuration that all configurations inherit from.
+﻿# Default application configuration that all configurations inherit from.
 
 scss_files: "**/*.scss"
 
