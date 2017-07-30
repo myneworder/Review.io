@@ -3,6 +3,7 @@
 [![JavaScript Style Guide: Good Parts](https://img.shields.io/badge/code%20style-goodparts-brightgreen.svg?style=flat)](https://github.com/dwyl/goodparts "JavaScript The Good Parts")
 [![Join the chat at https://gitter.im/Review-io/Lobby](https://badges.gitter.im/Review-io/Lobby.svg)](https://gitter.im/Review-io/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 [![Build Status](https://travis-ci.org/SpawnTree/Review.io.svg?branch=master)](https://travis-ci.org/SpawnTree/Review.io)
+[![CircleCI](https://circleci.com/gh/SpawnTree/Review.io/tree/master.svg?style=svg)](https://circleci.com/gh/SpawnTree/Review.io/tree/master)
 [![devDependencies Status](https://david-dm.org/SpawnTree/Review.io/dev-status.svg)](https://david-dm.org/SpawnTree/Review.io?type=dev)
 [![dependencies Status](https://david-dm.org/SpawnTree/Review.io.svg)](https://david-dm.org/SpawnTree/Review.io)
 [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/dwyl/esta/issues)
@@ -21,6 +22,23 @@ It is not made to match production needs and will later be added with DOCKER ```
 ** Web3 Package install via bower. Truffle, Zeppelin, Solidity-Lint & Solidity compilation only on node. **
 ** Unit Testing for smart-contracts & Blockchain based logic to be tested ** 
 ```
+
+## Build Status & Code Quality
+
+We take build and testing very sereiously. Code quality & code vulnerabilities are mapped from time to time. 
+Shipping good code is always great. !!
+
+```
+* CircleCI Builds Config : .circleci/config.yml
+* TravisCI Build & Testing Config : .travis.yml
+* Code-Climate (Code Quality & Shipping) : .codeclimate.yml
+```
+[![Build Status](https://travis-ci.org/SpawnTree/Review.io.svg?branch=master)](https://travis-ci.org/SpawnTree/Review.io)
+[![CircleCI](https://circleci.com/gh/SpawnTree/Review.io/tree/master.svg?style=svg)](https://circleci.com/gh/SpawnTree/Review.io/tree/master)
+[![Code Climate](https://codeclimate.com/github/SpawnTree/Review.io/badges/gpa.svg)](https://codeclimate.com/github/SpawnTree/Review.io)
+[![Test Coverage](https://codeclimate.com/github/SpawnTree/Review.io/badges/coverage.svg)](https://codeclimate.com/github/codeclimate/SpawnTree/Review.io)
+[![Issue Count](https://codeclimate.com/github/SpawnTree/Review.io/badges/issue_count.svg)](https://codeclimate.com/github/SpawnTree/Review.io)
+
 ## Prerequisites
 
 Node.js and npm are essential to React & Angular development. 
