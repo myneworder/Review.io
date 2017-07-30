@@ -33,9 +33,7 @@ Shipping good code is always great. !!
 * TravisCI Build & Testing Config : .travis.yml
 * Code-Climate (Code Quality & Shipping) : .codeclimate.yml
 ```
-```
 [![Build Status](https://travis-ci.org/SpawnTree/Review.io.svg?branch=master)](https://travis-ci.org/SpawnTree/Review.io)
-```
 [![CircleCI](https://circleci.com/gh/SpawnTree/Review.io/tree/master.svg?style=svg)](https://circleci.com/gh/SpawnTree/Review.io/tree/master)
 [![Code Climate](https://codeclimate.com/github/SpawnTree/Review.io/badges/gpa.svg)](https://codeclimate.com/github/SpawnTree/Review.io)
 [![Test Coverage](https://codeclimate.com/github/SpawnTree/Review.io/badges/coverage.svg)](https://codeclimate.com/github/codeclimate/SpawnTree/Review.io)
