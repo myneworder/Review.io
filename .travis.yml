@@ -24,8 +24,7 @@ script:
   - npm run e2e
   - npm run build
   - npm run preprotractor
-  - npm run protractor
-
+ 
 notifications:
     slack: cryptostewarts:KJp9hwkuiYYblcNjDcLfF159
 
