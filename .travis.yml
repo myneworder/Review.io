@@ -2,7 +2,7 @@
 sudo: required
 language: node_js
 node_js:
-  - "5"
+  - "6"
 os:
   - linux
 env:
@@ -17,12 +17,14 @@ install:
   - bower update
   - npm install
   - npm install nsp --global
-  - nsp check
   - bower install 
 script:
   - npm run lint
   - npm run test:once
   - npm run e2e
+  - npm run build
+  - npm run preprotractor
+  - npm run protractor
 
 notifications:
     slack: cryptostewarts:KJp9hwkuiYYblcNjDcLfF159
