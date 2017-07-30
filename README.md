@@ -38,6 +38,7 @@ Shipping good code is always great. !!
 [![Code Climate](https://codeclimate.com/github/SpawnTree/Review.io/badges/gpa.svg)](https://codeclimate.com/github/SpawnTree/Review.io)
 [![Test Coverage](https://codeclimate.com/github/SpawnTree/Review.io/badges/coverage.svg)](https://codeclimate.com/github/codeclimate/SpawnTree/Review.io)
 [![Issue Count](https://codeclimate.com/github/SpawnTree/Review.io/badges/issue_count.svg)](https://codeclimate.com/github/SpawnTree/Review.io)
+[![Known Vulnerabilities](https://snyk.io/test/github/SpawnTree/Review.io/badge.svg)](https://snyk.io/test/github/SpawnTree/Review.io)
 
 ## Prerequisites
 
