@@ -21,6 +21,7 @@ bld/
 [Oo]bj/
 [Ll]og/
 bower_components/
+node_modeules/
 
 # Visual Studio 2015 cache/options directory
 .vs/
