@@ -1,19 +1,18 @@
 ﻿# Review.io [Start-Credits : Angular Quickstart Repo]
 
 [![Using Blockchain](https://img.shields.io/badge/Blockchain-Yes-brightgreen.svg?style=flat)](https://github.com/SpawnTree/Review.io)
-[![Using Solidity](https://img.shields.io/badge/Using%20Solidity-Maybe-yellow.svg?style=flat)](https://github.com/SpawnTree/Review.io)
+[![Using Solidity](https://img.shields.io/badge/Using%20Solidity-Partially%20Yes-yellow.svg?style=flat)](https://github.com/SpawnTree/Review.io)
 [![Using Bitcoin](https://img.shields.io/badge/Bitcoin%20Accepted-Yes-brightgreen.svg?style=flat)](https://github.com/SpawnTree/Review.io)
 [![Using Bitcoin Blockchain Decentralized](https://img.shields.io/badge/Decentralized-110-brightgreen.svg?style=flat)](https://github.com/SpawnTree/Review.io)
 [![Using Peer-to-Peer](https://img.shields.io/badge/Peer%20To%20Peer-Partially%20Yes-brightgreen.svg?style=flat)](https://github.com/SpawnTree/Review.io)
 [![JavaScript Style Guide: Good Parts](https://img.shields.io/badge/code%20style-goodparts-brightgreen.svg?style=flat)](https://github.com/dwyl/goodparts "JavaScript The Good Parts")
+[![Using Node.js](https://img.shields.io/badge/Node.js-Using-brightgreen.svg?style=flat)](https://github.com/SpawnTree/Review.io)
 [![Join the chat at https://gitter.im/Review-io/Lobby](https://badges.gitter.im/Review-io/Lobby.svg)](https://gitter.im/Review-io/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 [![Build Status](https://travis-ci.org/SpawnTree/Review.io.svg?branch=master)](https://travis-ci.org/SpawnTree/Review.io)
 [![CircleCI](https://circleci.com/gh/SpawnTree/Review.io/tree/master.svg?style=svg)](https://circleci.com/gh/SpawnTree/Review.io/tree/master)
 [![devDependencies Status](https://david-dm.org/SpawnTree/Review.io/dev-status.svg)](https://david-dm.org/SpawnTree/Review.io?type=dev)
 [![dependencies Status](https://david-dm.org/SpawnTree/Review.io.svg)](https://david-dm.org/SpawnTree/Review.io)
 [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/dwyl/esta/issues)
-[![Using Node.js](https://img.shields.io/badge/Node.js-Using-brightgreen.svg?style=flat)](https://github.com/SpawnTree/Review.io)
-
 
 This repository holds the source code of the Review.io review site,
 the foundation for most of the documentation samples and potentially a good starting point for the application.
