@@ -6,9 +6,7 @@
 [![CircleCI](https://circleci.com/gh/SpawnTree/Review.io/tree/master.svg?style=svg)](https://circleci.com/gh/SpawnTree/Review.io/tree/master)
 [![devDependencies Status](https://david-dm.org/SpawnTree/Review.io/dev-status.svg)](https://david-dm.org/SpawnTree/Review.io?type=dev)
 [![dependencies Status](https://david-dm.org/SpawnTree/Review.io.svg)](https://david-dm.org/SpawnTree/Review.io)
-[![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/dwyl/esta/issues)
-[![Code Climate](https://codeclimate.com/github/SpawnTree/Review.io/badges/gpa.svg)](https://codeclimate.com/github/SpawnTree/Review.io)
-[![Issue Count](https://codeclimate.com/github/SpawnTree/Review.io/badges/issue_count.svg)](https://codeclimate.com/github/SpawnTree/Review.io)
+[![contributions welcome](https://img.shields.io/badge/Node.js-Using-brightgreen.svg?style=plastic)](https://github.com/dwyl/esta/issues)
 
 This repository holds the source code of the Review.io review site,
 the foundation for most of the documentation samples and potentially a good starting point for the application.
