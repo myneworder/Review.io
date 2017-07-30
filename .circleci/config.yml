@@ -28,7 +28,7 @@ jobs:
 
       - run: npm update
       - run: npm install
-      - run: npm install bower -g
+      - run: npm install bower --save
       - run: bower update
       - run: bower install
 
