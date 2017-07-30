@@ -16,6 +16,8 @@ install:
   - npm update
   - bower update
   - npm install
+  - npm install nsp --global
+  - nsp check
   - bower install 
 script:
   - npm run lint
