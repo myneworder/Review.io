@@ -1,7 +1,7 @@
 ﻿# Review.io [Start-Credits : Angular Quickstart Repo]
 
 [![Using Blockchain](https://img.shields.io/badge/Blockchain-Yes-brightgreen.svg?style=flat)](https://github.com/SpawnTree/Review.io)
-[![Using Solidity](https://img.shields.io/badge/Using%20Solidity-Partially%20Yes-yellow.svg?style=flat)](https://github.com/SpawnTree/Review.io)
+[![Using Solidity](https://img.shields.io/badge/Using%20Solidity-Partially%20Yes-brightgreen.svg?style=flat)](https://github.com/SpawnTree/Review.io)
 [![Using Bitcoin](https://img.shields.io/badge/Bitcoin%20Accepted-Yes-brightgreen.svg?style=flat)](https://github.com/SpawnTree/Review.io)
 [![Using Bitcoin Blockchain Decentralized](https://img.shields.io/badge/Decentralized-110-brightgreen.svg?style=flat)](https://github.com/SpawnTree/Review.io)
 [![Using Peer-to-Peer](https://img.shields.io/badge/Peer%20To%20Peer-Partially%20Yes-brightgreen.svg?style=flat)](https://github.com/SpawnTree/Review.io)
