@@ -14,3 +14,6 @@ patch:
   'npm:tough-cookie:20160722':
     - phantomjs > request > tough-cookie:
         patched: '2017-07-30T18:57:23.444Z'
+  'npm:tough-cookie:20170905':
+    - phantomjs > request > tough-cookie:
+        patched: '2017-09-25T00:08:15.064Z'
